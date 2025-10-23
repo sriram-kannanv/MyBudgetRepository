@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
